@@ -1,0 +1,51 @@
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\obj\Debug\Interop.ADOX.dll
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.vbproj.ResolveComReference.cache
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\bin\Debug\Marpress.dll
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\bin\Debug\Marpress.pdb
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\bin\Debug\Marpress.xml
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\bin\Debug\itextsharp.xml
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\bin\Debug\Interop.ADOX.dll
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\obj\Debug\ResolveAssemblyReference.cache
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes.FormPrincipal.resources
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes.Resources.resources
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.vbproj.GenerateResource.Cache
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\bin\Debug\Carnes - Sehal.exe
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\bin\Debug\Carnes - Sehal.pdb
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\bin\Debug\Carnes - Sehal.xml
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.exe
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.xml
+C:\Amarildo\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.pdb
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\obj\Debug\Interop.ADOX.dll
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.vbproj.ResolveComReference.cache
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.exe
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.xml
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.pdb
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\bin\Debug\Carnes - Sehal.exe
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\bin\Debug\Carnes - Sehal.pdb
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\bin\Debug\Carnes - Sehal.xml
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\bin\Debug\Marpress.pdb
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\bin\Debug\Marpress.xml
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\bin\Debug\itextsharp.xml
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\bin\Debug\Interop.ADOX.dll
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\obj\Debug\ResolveAssemblyReference.cache
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes.FormPrincipal.resources
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes.Resources.resources
+C:\Amarildo\Clientes\Sehal\Carne\Itau\Fonte\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.vbproj.GenerateResource.Cache
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\bin\Debug\Carnes - Sehal.exe
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\bin\Debug\Carnes - Sehal.pdb
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\bin\Debug\Carnes - Sehal.xml
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\bin\Debug\itextsharp.xml
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\bin\Debug\Marpress.pdb
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\bin\Debug\Marpress.xml
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\bin\Debug\Interop.ADOX.dll
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.vbprojAssemblyReference.cache
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\obj\Debug\Interop.ADOX.dll
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.vbproj.ResolveComReference.cache
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes.FormPrincipal.resources
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes.Resources.resources
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.vbproj.GenerateResource.cache
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.vbproj.CoreCompileInputs.cache
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.vbproj.CopyComplete
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.exe
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.xml
+C:\Amarildo\Programas\Visual Studio\Carnes - Sehal\Carnes - Sehal\obj\Debug\Carnes - Sehal.pdb

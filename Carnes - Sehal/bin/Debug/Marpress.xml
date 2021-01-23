@@ -1,0 +1,227 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Marpress
+</name>
+</assembly>
+<members>
+<member name="M:Marpress.FichaCompensacao.NossaCaixa.NossaCaixa.#ctor(System.Int32,System.Int32,System.Int32,System.String,System.Int64,System.Double,System.DateTime)">
+	<summary>Ficha de Compensação Padrão - Nossa Caixa Nosso Banco</summary>
+	<param name="fnAgencia">Número da Agência sem Dígito Verificador</param>
+	<param name="fnModalidade">Modalidade da Conta</param>
+	<param name="fnConta">Número da Conta sem Dígito Verificador</param>
+	<param name="fnDVConta">Dígito Verificador da Conta</param>
+	<param name="fnNossoNumero">Nosso Número sem formatação</param>
+	<param name="fnValorDocumento">Valor do Documento</param>
+	<param name="fnVencimento">Data de Vencimento</param>
+</member><member name="M:Marpress.FichaCompensacao.NossaCaixa.NossaCaixa.formataCampoAgenciaCodigoCedente">
+	<summary>Formatação do Campo "Agência/Código do Cedente" na ficha de compensação</summary>
+</member><member name="M:Marpress.FichaCompensacao.NossaCaixa.NossaCaixa.formataCampoNossoNumero">
+	<summary>Formatação do Campo "Nosso Número" na ficha de compensação</summary>
+</member><member name="T:Marpress.FAC.Contrato">
+	<summary>
+ Enumerador com as opções de contratos FAC
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Marpress.FAC.Enumeradores.ObterDescricao(System.Enum)">
+	<summary>
+ Obtém a descrição de um determinado Enumerador.
+ </summary>
+	<param name="valor">Enumerador que terá a descrição obtida</param>
+	<returns>String com a descrição do Enumerador</returns>
+	<remarks></remarks>
+</member><member name="P:Marpress.Cobranca.NumeroIdentificação">
+	<summary>Número de identificação, Número para baixa de pagamento (Nosso Número sem formatação)</summary>
+</member><member name="M:Marpress.FichaCompensacao.BancoDoBrasil.BancoDoBrasil.#ctor(Marpress.FichaCompensacao.BancoDoBrasil.BancoDoBrasil.TipoCobranca,System.Int32,System.Int32,System.String,System.Int32,System.String,System.Int64,System.Double,System.DateTime,System.Int32,System.Int32)">
+	<summary>Ficha de Compensação Padrão - Banco do Brasil</summary>
+	<param name="fnTipoCobranca">Tipo de Cobrança - Carteira Sem Registro ou Carteira Registrada</param>
+	<param name="fnConvenio">Número do Convênio</param>
+	<param name="fnAgencia">Número da Agência sem Dígito Verificador</param>
+	<param name="fnDVAgencia">Dígito Verificador da Agência</param>
+	<param name="fnConta">Número da Conta sem Dígito Verificador</param>
+	<param name="fnDVConta">Dígito Verificador da Conta</param>
+	<param name="fnNossoNumero">Nosso Número</param>
+	<param name="fnValorDocumento">Valor do Documento</param>
+	<param name="fnVencimento">Data de Vencimento</param>
+	<param name="fnCarteira">Número da Carteira</param>
+	<param name="fnVariacaoCarteira">Variação da Carteira</param>
+	<remarks></remarks>
+</member><member name="M:Marpress.FichaCompensacao.BancoDoBrasil.BancoDoBrasil.formataCampoAgenciaCodigoCedente">
+	<summary>Formatação do Campo "Agência/Código do Cedente" na ficha de compensação</summary>
+</member><member name="M:Marpress.FichaCompensacao.BancoDoBrasil.BancoDoBrasil.formataCampoNossoNumero">
+	<summary>Formatação do Campo "Nosso Número" na ficha de compensação</summary>
+</member><member name="M:Marpress.Funcoes.Funcoes.FormatarData(System.String,System.String)">
+	<summary>
+ Função para formatar uma string em formato data dd/MM/yyyy
+ </summary>
+	<param name="data">String com a data</param>
+	<param name="formato">formatação da data informada no parâmetro data</param>
+	<returns>Retorna a String em um formato data dd/MM/yyyy</returns>
+	<remarks></remarks>
+</member><member name="M:Marpress.Funcoes.Funcoes.Mod11(System.String,System.Int32,System.Int32)">
+	<summary>Cálculo Módulo 11 - Peso Inicial e Peso Final</summary>
+	<param name="codigo">Sequência numérica para cálculo</param>
+	<param name="pesoInicial">Peso Inicial</param>
+	<param name="pesoFinal">Peso Final</param>
+	<returns>Retorna um valor Inteiro</returns>
+</member><member name="M:Marpress.Funcoes.Funcoes.Cod_Bar(System.String)">
+	<summary>Função para Codificar o código de barras</summary>
+	<param name="strNumero">Sequência numérica a ser codificada</param>
+	<returns>Retorna um String</returns>
+</member><member name="M:Marpress.Funcoes.Funcoes.PostNet(System.String)">
+	<summary>
+ Funcão usada para a construção do código de barras - PostNet
+ </summary>
+	<param name="cep">CEP - somente números</param>
+	<returns>CEP + Dígito Verificador</returns>
+	<remarks></remarks>
+</member><member name="M:Marpress.Funcoes.Funcoes.ValidaCEP(System.Int32,System.String)">
+	<summary>
+ Funcão usada para verificar se o CEP está dentro da Faixa de CEP do Estado informado
+ </summary>
+	<param name="cep">CEP</param>
+	<param name="uf">Estado</param>
+	<returns>Verdadeiro ou Falso</returns>
+	<remarks></remarks>
+</member><member name="M:Marpress.Funcoes.Funcoes.processaFAC(Marpress.FAC.Contrato,System.String,Marpress.Interfaces.IArquivo@,System.Boolean,System.DateTime,System.Windows.Forms.Label@)">
+	<summary>
+ Funcão usada para padronizar os registros dentro do FAC SIMPLES
+ </summary>
+	<param name="cliente">Cliente que tenha um contrato FAC</param>
+	<param name="arquivo">Objeto com os registros</param>
+	<param name="producao">Processamento será produção?</param>
+	<param name="dataFAC">Data de Postagem FAC</param>
+	<param name="label">Label que será exibida os detalhes do processo</param>
+	<remarks></remarks>
+</member><member name="M:Marpress.Funcoes.Funcoes.processaFACRegistrado(Marpress.FAC.Tipo,Marpress.FAC.Contrato,System.String,Marpress.Interfaces.IArquivo@,System.Boolean,System.DateTime,System.Windows.Forms.Label@)">
+	<summary>
+ Funcão usada para padronizar os registros dentro do FAC REGISTRADO
+ </summary>
+	<param name="cliente">Cliente que tenha um contrato FAC</param>
+	<param name="arquivo">Objeto com os registros</param>
+	<param name="producao">Processamento será produção?</param>
+	<param name="dataFAC">Data de Postagem FAC</param>
+	<param name="label">Label que será exibida os detalhes do processo</param>
+	<remarks></remarks>
+</member><member name="M:Marpress.Funcoes.Funcoes.CalculaDVAR(System.String)">
+	<summary>
+ Cálculo usado para obter o dígito verificador do número do objeto - AR
+ </summary>
+	<param name="ar">Número Objeto</param>
+	<returns>Retorna um valor inteiro</returns>
+	<remarks></remarks>
+</member><member name="M:Marpress.Funcoes.Funcoes.Mod10(System.String)">
+	<summary>Cálculo Módulo 10</summary>
+	<param name="codigo">Sequência numérica para cálculo</param>
+	<returns>Retorna um valor Inteiro</returns>
+</member><member name="M:Marpress.Funcoes.Funcoes.getDecimal(System.Byte)">
+	<summary>
+ Função auxiliar - Parte decimal a converter
+ </summary>
+	<param name="number">Parte decimal a converter</param>
+</member><member name="M:Marpress.Funcoes.Funcoes.getInteger(System.Decimal)">
+	<summary>
+ Função auxiliar - Parte inteira a converter
+ </summary>
+	<param name="number">Parte inteira a converter</param>
+</member><member name="M:Marpress.FichaCompensacao.Unibanco.Unibanco.#ctor(Marpress.FichaCompensacao.Unibanco.Unibanco.TipoCobranca,System.Int32,System.Int32,System.Int32,System.String,System.Int64,System.Double,System.DateTime)">
+	<summary>Ficha de Compensação Padrão - Unibanco</summary>
+	<param name="fnTipoCobranca">Tipo de Cobrança (Com Registro ou Sem Registro)</param>
+	<param name="fnCodigoCliente">Código do Cliente</param>
+	<param name="fnAgencia">Número da Agência sem Dígito Verificador</param>
+	<param name="fnConta">Número da Conta sem Dígito Verificador</param>
+	<param name="fnDVConta">Dígito Verificador da Conta</param>
+	<param name="fnNossoNumero">Nosso Número sem formatação</param>
+	<param name="fnValorDocumento">Valor do Documento</param>
+	<param name="fnVencimento">Data de Vencimento</param>
+</member><member name="M:Marpress.FichaCompensacao.Unibanco.Unibanco.formataCampoAgenciaCodigoCedente">
+	<summary>Formatação do Campo "Agência/Código do Cedente" na ficha de compensação</summary>
+</member><member name="M:Marpress.FichaCompensacao.Unibanco.Unibanco.formataCampoNossoNumero">
+	<summary>Formatação do Campo "Nosso Número" na ficha de compensação</summary>
+</member><member name="M:Marpress.FichaCompensacao.Itau.Itau.#ctor(Marpress.FichaCompensacao.Itau.Itau.TipoCarteira,System.Int32,System.Int32,System.Int32,System.Int32,System.Int64,System.Double,System.DateTime)">
+	<summary>Ficha de Compensação Padrão - Itaú</summary>
+	<param name="fnTipoCobranca">Modalidade da Carteira</param>
+	<param name="fnCarteira">Número da Carteira</param>
+	<param name="fnCodigoCliente">Código do Cliente para as carteiras especiais, senão informar 0</param>
+	<param name="fnAgencia">Número da Agência sem Dígito Verificador</param>
+	<param name="fnConta">Número da Conta sem Dígito Verificador</param>
+	<param name="fnNossoNumero">Nosso Número sem formatação</param>
+	<param name="fnValorDocumento">Valor do Documento</param>
+	<param name="fnVencimento">Data de Vencimento</param>
+</member><member name="M:Marpress.FichaCompensacao.Itau.Itau.formataCampoAgenciaCodigoCedente">
+	<summary>Formatação do Campo "Agência/Código do Cedente" na ficha de compensação</summary>
+</member><member name="M:Marpress.FichaCompensacao.Itau.Itau.formataCampoNossoNumero">
+	<summary>Formatação do Campo "Nosso Número" na ficha de compensação</summary>
+</member><member name="M:Marpress.FichaCompensacao.Real.Real.#ctor(Marpress.FichaCompensacao.Real.Real.NumeroBanco,System.Int32,System.Int32,System.Int64,System.Double,System.DateTime)">
+	<summary>Ficha de Compensação Padrão - Banco Real ABN AMRO</summary>
+	<param name="fnAgencia">Número da Agência sem Dígito Verificador</param>
+	<param name="fnConta">Número da Conta sem Dígito Verificador</param>
+	<param name="fnNossoNumero">Nosso Número sem formatação</param>
+	<param name="fnValorDocumento">Valor do Documento</param>
+	<param name="fnVencimento">Data de Vencimento</param>
+</member><member name="M:Marpress.FichaCompensacao.Real.Real.formataCampoAgenciaCodigoCedente">
+	<summary>Formatação do Campo "Agência/Código do Cedente" na ficha de compensação</summary>
+</member><member name="M:Marpress.FichaCompensacao.Real.Real.formataCampoNossoNumero">
+	<summary>Formatação do Campo "Nosso Número" na ficha de compensação</summary>
+</member><member name="M:Marpress.FichaCompensacao.Bradesco.Bradesco.#ctor(System.Int32,System.Int32,System.String,System.Int32,System.String,System.Int64,System.Double,System.DateTime)">
+	<summary>Ficha de Compensação Padrão - Bradesco</summary>
+	<param name="fnCarteira">Número da Carteira de Cobrança</param>
+	<param name="fnAgencia">Número da Agência sem Dígito Verificador</param>
+	<param name="fnDVAgencia">Dígito Verificador da Agência</param>
+	<param name="fnConta">Número da Conta sem Dígito Verificador</param>
+	<param name="fnDVConta">Dígito Verificador da Conta</param>
+	<param name="fnNossoNumero">Nosso Número sem formatação</param>
+	<param name="fnValorDocumento">Valor do Documento</param>
+	<param name="fnVencimento">Data de Vencimento</param>
+</member><member name="M:Marpress.FichaCompensacao.Bradesco.Bradesco.formataCampoAgenciaCodigoCedente">
+	<summary>Formatação do Campo "Agência/Código do Cedente" na ficha de compensação</summary>
+</member><member name="M:Marpress.FichaCompensacao.Bradesco.Bradesco.formataCampoNossoNumero">
+	<summary>Formatação do Campo "Nosso Número" na ficha de compensação</summary>
+</member><member name="M:Marpress.FichaCompensacao.SantanderBanespa.SantanderBanespa.#ctor(Marpress.FichaCompensacao.SantanderBanespa.SantanderBanespa.NumeroBanco,Marpress.FichaCompensacao.SantanderBanespa.SantanderBanespa.TipoCobranca,System.String,System.Int32,System.Int32,System.Int64,System.Double,System.DateTime)">
+	<summary>Ficha de Compensação Padrão - Santander Banespa</summary>
+	<param name="fnNumeroBanco">Número do Banco - Santander = 353, Banespa = 033, Meridional = 008</param>
+	<param name="fnTipoCobranca">Modalidade da Carteira</param>
+	<param name="fnCodigoCedente">Número do Código do Cedente (PSK)</param>
+	<param name="fnIOF">Seguradoras Informar IOF, Demais Informar 0</param>
+	<param name="fnAgencia">Número da Agência sem Dígito Verificador</param>
+	<param name="fnNossoNumero">Nosso Número sem formatação</param>
+	<param name="fnValorDocumento">Valor do Documento</param>
+	<param name="fnVencimento">Data de Vencimento</param>
+</member><member name="M:Marpress.FichaCompensacao.SantanderBanespa.SantanderBanespa.#ctor(System.String,System.Int64,System.Double,System.DateTime)">
+	<summary>Ficha de Compensação Padrão - Antigo Banespa</summary>
+	<param name="fnCodigoCedente">Código do Cedente com 11 Caracteres</param>
+	<param name="fnNossoNumero">Nosso Número sem formatação</param>
+	<param name="fnValorDocumento">Valor do Documento</param>
+	<param name="fnVencimento">Data de Vencimento</param>
+</member><member name="M:Marpress.FichaCompensacao.SantanderBanespa.SantanderBanespa.formataCampoAgenciaCodigoCedente">
+	<summary>Formatação do Campo "Agência/Código do Cedente" na ficha de compensação</summary>
+</member><member name="M:Marpress.FichaCompensacao.SantanderBanespa.SantanderBanespa.formataCampoNossoNumero">
+	<summary>Formatação do Campo "Nosso Número" na ficha de compensação</summary>
+</member><member name="P:Marpress.Compensacao.Agencia">
+	<summary>
+ Número da Agência sem o Dígito Verificador
+ </summary>
+</member><member name="P:Marpress.Compensacao.Conta">
+	<summary>
+ Número da Conta sem o Dígito Verificador
+ </summary>
+</member><member name="P:Marpress.Compensacao.Banco">
+	<summary>
+ Número do Banco sem o Dígito Verificador
+ </summary>
+</member><member name="P:Marpress.Compensacao.DVConta">
+	<summary>
+ Dígito Verificador da Conta
+ </summary>
+</member><member name="P:Marpress.Compensacao.DVAgencia">
+	<summary>
+ Dígito Verificador da Agência
+ </summary>
+</member><member name="P:Marpress.Compensacao.DVBanco">
+	<summary>
+ Dígito Verificador do Banco
+ </summary>
+</member>
+</members>
+</doc>
